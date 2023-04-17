@@ -19,7 +19,6 @@
 
     <h3>Paragraph:</h3>
     <p> <?php echo $paragraph ?> </p>
-
     <i>The paragraph above is <?php echo strlen($paragraph) ?> characthers and <?php echo str_word_count($paragraph) ?> words long.</i>
 
     <h3>Censored paragraph:</h3>
